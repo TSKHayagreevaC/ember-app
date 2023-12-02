@@ -1,9 +1,0 @@
-<h2>{{@title}}</h2>
-
-<ul style="list-style: none; padding-left: 0rem">
-    {{#each @people as |person|}}
-        <li>
-            <button style="margin-bottom: 1rem; padding: 0.5rem; border-radius: 5px;" type="button" {{on 'click' (fn this.showPerson person)}}>{{person}}</button>
-        </li>
-    {{/each}}
-</ul>
